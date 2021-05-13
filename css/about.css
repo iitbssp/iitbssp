@@ -4,7 +4,7 @@
 /*****ABOUT PAGE******/
 .about-head {
   display: block;
-  height: 60vh;
+  height: 50vh;
   background: url('../img/slider.jpg');
   background-size: cover;
   clip-path: polygon(100% 0%,100% 80%,40% 100%,0% 80%,0% 0%);
