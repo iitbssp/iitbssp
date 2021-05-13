@@ -89,7 +89,7 @@
                         <li><a href="stads.html">STADS</a></li>
                         <li><a href="glee.html">GLEE</a></li>
                         <li><a href="rvd.html">RVD</a></li>
-                        <li><a href="ham.html">HAM</a></li>
+                        <li><a href="ham.html">Ham</a></li>
                     </ul>
                 </li>
 
