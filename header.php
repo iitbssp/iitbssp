@@ -85,11 +85,11 @@
                     <ul class="dropdown-menu">
                         <li><a href="pratham.html">Pratham</a></li>
                         <li><a href="advitiy.html">Advitiy</a></li>
-                        <li><a href="advitiy.html">Sanket</a></li>
-                        <li><a href="advitiy.html">STADS</a></li>
-                        <li><a href="advitiy.html">GLEE</a></li>
-                        <li><a href="advitiy.html">RVD</a></li>
-                        <li><a href="advitiy.html">HAM</a></li>
+                        <li><a href="sanket.html">Sanket</a></li>
+                        <li><a href="stads.html">STADS</a></li>
+                        <li><a href="glee.html">GLEE</a></li>
+                        <li><a href="rvd.html">RVD</a></li>
+                        <li><a href="ham.html">HAM</a></li>
                     </ul>
                 </li>
 
@@ -97,8 +97,8 @@
                     <a href="#" class="dropdown-toggle" id="subsysM" data-toggle="dropdown">Subsystems<i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="commSS.html">Communication</a></li>
-                        <li><a href="gnc.html">GnC</a></li>
-                        <li><a href="instrumentation.html">Instrumentation</a></li>
+                        <li><a href="gncSS.html">GnC</a></li>
+                        <li><a href="instrSS.html">Instrumentation</a></li>
                         <li><a href="elecSS.html">Electrical</a></li>
                         <li><a href="mechSS.html">Mechanical</a></li>
                         <li><a href="payloadSS.html">Payload</a></li>
