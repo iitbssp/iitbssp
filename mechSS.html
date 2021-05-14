@@ -128,7 +128,7 @@ h6 {
                         <li><a href="stads.html">STADS</a></li>
                         <li><a href="glee.html">GLEE</a></li>
                         <li><a href="rvd.html">RVD</a></li>
-                        <li><a href="ham.html">Ham</a></li>
+                        <li><a href="ham.html">HAM</a></li>
                     </ul>
                 </li>
 
@@ -136,7 +136,7 @@ h6 {
                     <a href="#" class="dropdown-toggle" id="subsysM" data-toggle="dropdown">Subsystems<i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="commSS.html">Communication</a></li>
-                        <li><a href="gncSS.html">GNC</a></li>
+                        <li><a href="gncSS.html">GnC</a></li>
                         <li><a href="instrSS.html">Instrumentation</a></li>
                         <li><a href="elecSS.html">Electrical</a></li>
                         <li><a href="mechSS.html">Mechanical</a></li>
@@ -160,14 +160,14 @@ h6 {
                     <ul class="dropdown-menu">
                         <li><a href="timeline.html">Timeline</a></li>
                         <li><a href="logs.html">Logs</a></li>
-                     <!--   <li id="ddGS"><a>Ground Station<i class="fa fa-angle-down"></i></a>
+                        <li id="ddGS"><a>Ground Station<i class="fa fa-angle-down"></i></a>
                             <div class="dd-content">
                                <a href="groundStation.html">About GS</a>
                                <a href="gsActivities.html">Activities</a>
                                <a href="gsTracking.html">Tracking</a>
                                <a href="gsWS.html">Workshop</a>
                             </div> 
-                        </li>-->
+                        </li>
                         <li><a href="faq.html">FAQ</a></li> 
                     </ul>
                 </li>
@@ -245,6 +245,41 @@ h6 {
             </div>
         </div>
     </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/fittext.js"></script>
+    <script src="js/lettering.js"></script>
+    <script src="js/textillate.js"></script>
+    <script>
+        $(function () {
+            $('.tlt').textillate({
+                loop: true,
+                minDisplayTime: 4000,
+                in: {
+                    effect: 'fadeInLeftBig',
+                    delayScale: 1.5,
+                    delay: 50,
+                    sync: true,
+                    shuffle: false,
+                    reverse: false,
+                },
+
+                out: {
+                    effect: 'fadeOutRightBig',
+                    delayScale: 1.5,
+                    delay: 50,
+                    sync: true,
+                    shuffle: false,
+                    reverse: true,
+                },
+            });
+        })
+    </script>
 
 </body>
 </html>
